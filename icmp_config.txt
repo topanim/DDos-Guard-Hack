@@ -1,0 +1,10 @@
+set interfaces ge-0/0/2 unit 0 family inet filter input icmp-flood
+
+set firewall family inet filter icmp-flood term icmp-flood from source-address any
+set firewall family inet filter icmp-flood term icmp-flood from destination-address any
+set firewall family inet filter icmp-flood term icmp-flood from protocol icmp
+
+set firewall family inet filter icmp-flood term icmp-flood then count icmp-flood-count by src-addr for 60s
+set firewall family inet filter icmp-flood term icmp-flood then if-exceeding count 1000
+set firewall family inet filter icmp-flood term icmp-flood then discard
+set firewall family inet filter icmp-flood term icmp-flood then log

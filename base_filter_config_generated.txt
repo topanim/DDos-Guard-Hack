@@ -1,0 +1,629 @@
+set interfaces ge-0/0/2 unit 0 family inet filter input Filter
+
+set firewall family inet filter Filter term 1 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 1 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 1 from protocol [tcp]
+set firewall family inet filter Filter term 1 from destination-port [80 443]
+set firewall family inet filter Filter term 1 from source-port [0-65535]
+set firewall family inet filter Filter term 1 then accept
+
+set firewall family inet filter Filter term 2 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 2 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 2 then reject
+
+set firewall family inet filter Filter term 3 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 3 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 3 from protocol [tcp]
+set firewall family inet filter Filter term 3 from destination-port [80 443]
+set firewall family inet filter Filter term 3 from source-port [0-65535]
+set firewall family inet filter Filter term 3 then accept
+
+set firewall family inet filter Filter term 4 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 4 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 4 then reject
+
+set firewall family inet filter Filter term 5 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 5 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 5 from protocol [tcp]
+set firewall family inet filter Filter term 5 from destination-port [80 443]
+set firewall family inet filter Filter term 5 from source-port [0-65535]
+set firewall family inet filter Filter term 5 then accept
+
+set firewall family inet filter Filter term 6 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 6 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 6 then reject
+
+set firewall family inet filter Filter term 7 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 7 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 7 from protocol [tcp]
+set firewall family inet filter Filter term 7 from destination-port [80 443]
+set firewall family inet filter Filter term 7 from source-port [0-65535]
+set firewall family inet filter Filter term 7 then accept
+
+set firewall family inet filter Filter term 8 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 8 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 8 then reject
+
+set firewall family inet filter Filter term 9 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 9 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 9 from protocol [tcp]
+set firewall family inet filter Filter term 9 from destination-port [80 443]
+set firewall family inet filter Filter term 9 from source-port [0-65535]
+set firewall family inet filter Filter term 9 then accept
+
+set firewall family inet filter Filter term 10 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 10 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 10 then reject
+
+set firewall family inet filter Filter term 11 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 11 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 11 from protocol [tcp]
+set firewall family inet filter Filter term 11 from destination-port [80 443]
+set firewall family inet filter Filter term 11 from source-port [0-65535]
+set firewall family inet filter Filter term 11 then accept
+
+set firewall family inet filter Filter term 12 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 12 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 12 then reject
+
+set firewall family inet filter Filter term 13 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 13 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 13 from protocol [tcp]
+set firewall family inet filter Filter term 13 from destination-port [80 443]
+set firewall family inet filter Filter term 13 from source-port [0-65535]
+set firewall family inet filter Filter term 13 then accept
+
+set firewall family inet filter Filter term 14 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 14 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 14 then reject
+
+set firewall family inet filter Filter term 15 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 15 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 15 from protocol [tcp]
+set firewall family inet filter Filter term 15 from destination-port [80 443]
+set firewall family inet filter Filter term 15 from source-port [0-65535]
+set firewall family inet filter Filter term 15 then accept
+
+set firewall family inet filter Filter term 16 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 16 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 16 then reject
+
+set firewall family inet filter Filter term 17 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 17 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 17 from protocol [tcp]
+set firewall family inet filter Filter term 17 from destination-port [80 443]
+set firewall family inet filter Filter term 17 from source-port [0-65535]
+set firewall family inet filter Filter term 17 then accept
+
+set firewall family inet filter Filter term 18 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 18 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 18 then reject
+
+set firewall family inet filter Filter term 19 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 19 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 19 from protocol [tcp]
+set firewall family inet filter Filter term 19 from destination-port [80 443]
+set firewall family inet filter Filter term 19 from source-port [0-65535]
+set firewall family inet filter Filter term 19 then accept
+
+set firewall family inet filter Filter term 20 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 20 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 20 then reject
+
+set firewall family inet filter Filter term 21 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 21 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 21 from protocol [tcp]
+set firewall family inet filter Filter term 21 from destination-port [80 443]
+set firewall family inet filter Filter term 21 from source-port [0-65535]
+set firewall family inet filter Filter term 21 then accept
+
+set firewall family inet filter Filter term 22 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 22 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 22 then reject
+
+set firewall family inet filter Filter term 23 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 23 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 23 from protocol [tcp]
+set firewall family inet filter Filter term 23 from destination-port [80 443]
+set firewall family inet filter Filter term 23 from source-port [0-65535]
+set firewall family inet filter Filter term 23 then accept
+
+set firewall family inet filter Filter term 24 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 24 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 24 then reject
+
+set firewall family inet filter Filter term 25 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 25 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 25 from protocol [tcp]
+set firewall family inet filter Filter term 25 from destination-port [80 443]
+set firewall family inet filter Filter term 25 from source-port [0-65535]
+set firewall family inet filter Filter term 25 then accept
+
+set firewall family inet filter Filter term 26 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 26 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 26 then reject
+
+set firewall family inet filter Filter term 27 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 27 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 27 from protocol [tcp]
+set firewall family inet filter Filter term 27 from destination-port [80 443]
+set firewall family inet filter Filter term 27 from source-port [0-65535]
+set firewall family inet filter Filter term 27 then accept
+
+set firewall family inet filter Filter term 28 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 28 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 28 then reject
+
+set firewall family inet filter Filter term 29 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 29 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 29 from protocol [tcp]
+set firewall family inet filter Filter term 29 from destination-port [80 443]
+set firewall family inet filter Filter term 29 from source-port [0-65535]
+set firewall family inet filter Filter term 29 then accept
+
+set firewall family inet filter Filter term 30 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 30 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 30 then reject
+
+set firewall family inet filter Filter term 31 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 31 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 31 from protocol [tcp]
+set firewall family inet filter Filter term 31 from destination-port [80 443]
+set firewall family inet filter Filter term 31 from source-port [0-65535]
+set firewall family inet filter Filter term 31 then accept
+
+set firewall family inet filter Filter term 32 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 32 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 32 then reject
+
+set firewall family inet filter Filter term 33 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 33 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 33 from protocol [tcp]
+set firewall family inet filter Filter term 33 from destination-port [80 443]
+set firewall family inet filter Filter term 33 from source-port [0-65535]
+set firewall family inet filter Filter term 33 then accept
+
+set firewall family inet filter Filter term 34 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 34 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 34 then reject
+
+set firewall family inet filter Filter term 35 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 35 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 35 from protocol [tcp]
+set firewall family inet filter Filter term 35 from destination-port [80 443]
+set firewall family inet filter Filter term 35 from source-port [0-65535]
+set firewall family inet filter Filter term 35 then accept
+
+set firewall family inet filter Filter term 36 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 36 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 36 then reject
+
+set firewall family inet filter Filter term 37 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 37 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 37 from protocol [tcp]
+set firewall family inet filter Filter term 37 from destination-port [80 443]
+set firewall family inet filter Filter term 37 from source-port [0-65535]
+set firewall family inet filter Filter term 37 then accept
+
+set firewall family inet filter Filter term 38 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 38 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 38 then reject
+
+set firewall family inet filter Filter term 39 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 39 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 39 from protocol [tcp]
+set firewall family inet filter Filter term 39 from destination-port [80 443]
+set firewall family inet filter Filter term 39 from source-port [0-65535]
+set firewall family inet filter Filter term 39 then accept
+
+set firewall family inet filter Filter term 40 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 40 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 40 then reject
+
+set firewall family inet filter Filter term 41 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 41 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 41 from protocol [tcp]
+set firewall family inet filter Filter term 41 from destination-port [80 443]
+set firewall family inet filter Filter term 41 from source-port [0-65535]
+set firewall family inet filter Filter term 41 then accept
+
+set firewall family inet filter Filter term 42 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 42 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 42 then reject
+
+set firewall family inet filter Filter term 43 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 43 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 43 from protocol [tcp]
+set firewall family inet filter Filter term 43 from destination-port [80 443]
+set firewall family inet filter Filter term 43 from source-port [0-65535]
+set firewall family inet filter Filter term 43 then accept
+
+set firewall family inet filter Filter term 44 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 44 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 44 then reject
+
+set firewall family inet filter Filter term 45 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 45 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 45 from protocol [tcp]
+set firewall family inet filter Filter term 45 from destination-port [80 443]
+set firewall family inet filter Filter term 45 from source-port [0-65535]
+set firewall family inet filter Filter term 45 then accept
+
+set firewall family inet filter Filter term 46 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 46 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 46 then reject
+
+set firewall family inet filter Filter term 47 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 47 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 47 from protocol [tcp]
+set firewall family inet filter Filter term 47 from destination-port [80 443]
+set firewall family inet filter Filter term 47 from source-port [0-65535]
+set firewall family inet filter Filter term 47 then accept
+
+set firewall family inet filter Filter term 48 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 48 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 48 then reject
+
+set firewall family inet filter Filter term 49 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 49 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 49 from protocol [tcp]
+set firewall family inet filter Filter term 49 from destination-port [80 443]
+set firewall family inet filter Filter term 49 from source-port [0-65535]
+set firewall family inet filter Filter term 49 then accept
+
+set firewall family inet filter Filter term 50 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 50 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 50 then reject
+
+set firewall family inet filter Filter term 51 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 51 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 51 from protocol [tcp]
+set firewall family inet filter Filter term 51 from destination-port [80 443]
+set firewall family inet filter Filter term 51 from source-port [0-65535]
+set firewall family inet filter Filter term 51 then accept
+
+set firewall family inet filter Filter term 52 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 52 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 52 then reject
+
+set firewall family inet filter Filter term 53 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 53 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 53 from protocol [tcp]
+set firewall family inet filter Filter term 53 from destination-port [80 443]
+set firewall family inet filter Filter term 53 from source-port [0-65535]
+set firewall family inet filter Filter term 53 then accept
+
+set firewall family inet filter Filter term 54 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 54 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 54 then reject
+
+set firewall family inet filter Filter term 55 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 55 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 55 from protocol [tcp]
+set firewall family inet filter Filter term 55 from destination-port [80 443]
+set firewall family inet filter Filter term 55 from source-port [0-65535]
+set firewall family inet filter Filter term 55 then accept
+
+set firewall family inet filter Filter term 56 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 56 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 56 then reject
+
+set firewall family inet filter Filter term 57 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 57 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 57 from protocol [tcp]
+set firewall family inet filter Filter term 57 from destination-port [80 443]
+set firewall family inet filter Filter term 57 from source-port [0-65535]
+set firewall family inet filter Filter term 57 then accept
+
+set firewall family inet filter Filter term 58 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 58 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 58 then reject
+
+set firewall family inet filter Filter term 59 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 59 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 59 from protocol [tcp]
+set firewall family inet filter Filter term 59 from destination-port [80 443]
+set firewall family inet filter Filter term 59 from source-port [0-65535]
+set firewall family inet filter Filter term 59 then accept
+
+set firewall family inet filter Filter term 60 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 60 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 60 then reject
+
+set firewall family inet filter Filter term 61 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 61 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 61 from protocol [tcp]
+set firewall family inet filter Filter term 61 from destination-port [80 443]
+set firewall family inet filter Filter term 61 from source-port [0-65535]
+set firewall family inet filter Filter term 61 then accept
+
+set firewall family inet filter Filter term 62 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 62 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 62 then reject
+
+set firewall family inet filter Filter term 63 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 63 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 63 from protocol [tcp]
+set firewall family inet filter Filter term 63 from destination-port [80 443]
+set firewall family inet filter Filter term 63 from source-port [0-65535]
+set firewall family inet filter Filter term 63 then accept
+
+set firewall family inet filter Filter term 64 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 64 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 64 then reject
+
+set firewall family inet filter Filter term 65 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 65 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 65 from protocol [tcp]
+set firewall family inet filter Filter term 65 from destination-port [80 443]
+set firewall family inet filter Filter term 65 from source-port [0-65535]
+set firewall family inet filter Filter term 65 then accept
+
+set firewall family inet filter Filter term 66 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 66 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 66 then reject
+
+set firewall family inet filter Filter term 67 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 67 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 67 from protocol [tcp]
+set firewall family inet filter Filter term 67 from destination-port [80 443]
+set firewall family inet filter Filter term 67 from source-port [0-65535]
+set firewall family inet filter Filter term 67 then accept
+
+set firewall family inet filter Filter term 68 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 68 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 68 then reject
+
+set firewall family inet filter Filter term 69 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 69 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 69 from protocol [tcp]
+set firewall family inet filter Filter term 69 from destination-port [80 443]
+set firewall family inet filter Filter term 69 from source-port [0-65535]
+set firewall family inet filter Filter term 69 then accept
+
+set firewall family inet filter Filter term 70 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 70 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 70 then reject
+
+set firewall family inet filter Filter term 71 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 71 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 71 from protocol [tcp]
+set firewall family inet filter Filter term 71 from destination-port [80 443]
+set firewall family inet filter Filter term 71 from source-port [0-65535]
+set firewall family inet filter Filter term 71 then accept
+
+set firewall family inet filter Filter term 72 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 72 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 72 then reject
+
+set firewall family inet filter Filter term 73 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 73 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 73 from protocol [tcp]
+set firewall family inet filter Filter term 73 from destination-port [80 443]
+set firewall family inet filter Filter term 73 from source-port [0-65535]
+set firewall family inet filter Filter term 73 then accept
+
+set firewall family inet filter Filter term 74 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 74 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 74 then reject
+
+set firewall family inet filter Filter term 75 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 75 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 75 from protocol [tcp]
+set firewall family inet filter Filter term 75 from destination-port [80 443]
+set firewall family inet filter Filter term 75 from source-port [0-65535]
+set firewall family inet filter Filter term 75 then accept
+
+set firewall family inet filter Filter term 76 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 76 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 76 then reject
+
+set firewall family inet filter Filter term 77 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 77 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 77 from protocol [tcp]
+set firewall family inet filter Filter term 77 from destination-port [80 443]
+set firewall family inet filter Filter term 77 from source-port [0-65535]
+set firewall family inet filter Filter term 77 then accept
+
+set firewall family inet filter Filter term 78 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 78 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 78 then reject
+
+set firewall family inet filter Filter term 79 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 79 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 79 from protocol [tcp]
+set firewall family inet filter Filter term 79 from destination-port [80 443]
+set firewall family inet filter Filter term 79 from source-port [0-65535]
+set firewall family inet filter Filter term 79 then accept
+
+set firewall family inet filter Filter term 80 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 80 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 80 then reject
+
+set firewall family inet filter Filter term 81 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 81 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 81 from protocol [tcp]
+set firewall family inet filter Filter term 81 from destination-port [80 443]
+set firewall family inet filter Filter term 81 from source-port [0-65535]
+set firewall family inet filter Filter term 81 then accept
+
+set firewall family inet filter Filter term 82 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 82 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 82 then reject
+
+set firewall family inet filter Filter term 83 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 83 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 83 from protocol [tcp]
+set firewall family inet filter Filter term 83 from destination-port [80 443]
+set firewall family inet filter Filter term 83 from source-port [0-65535]
+set firewall family inet filter Filter term 83 then accept
+
+set firewall family inet filter Filter term 84 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 84 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 84 then reject
+
+set firewall family inet filter Filter term 85 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 85 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 85 from protocol [tcp]
+set firewall family inet filter Filter term 85 from destination-port [80 443]
+set firewall family inet filter Filter term 85 from source-port [0-65535]
+set firewall family inet filter Filter term 85 then accept
+
+set firewall family inet filter Filter term 86 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 86 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 86 then reject
+
+set firewall family inet filter Filter term 87 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 87 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 87 from protocol [tcp]
+set firewall family inet filter Filter term 87 from destination-port [80 443]
+set firewall family inet filter Filter term 87 from source-port [0-65535]
+set firewall family inet filter Filter term 87 then accept
+
+set firewall family inet filter Filter term 88 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 88 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 88 then reject
+
+set firewall family inet filter Filter term 89 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 89 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 89 from protocol [tcp]
+set firewall family inet filter Filter term 89 from destination-port [80 443]
+set firewall family inet filter Filter term 89 from source-port [0-65535]
+set firewall family inet filter Filter term 89 then accept
+
+set firewall family inet filter Filter term 90 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 90 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 90 then reject
+
+set firewall family inet filter Filter term 91 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 91 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 91 from protocol [tcp]
+set firewall family inet filter Filter term 91 from destination-port [80 443]
+set firewall family inet filter Filter term 91 from source-port [0-65535]
+set firewall family inet filter Filter term 91 then accept
+
+set firewall family inet filter Filter term 92 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 92 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 92 then reject
+
+set firewall family inet filter Filter term 93 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 93 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 93 from protocol [tcp]
+set firewall family inet filter Filter term 93 from destination-port [80 443]
+set firewall family inet filter Filter term 93 from source-port [0-65535]
+set firewall family inet filter Filter term 93 then accept
+
+set firewall family inet filter Filter term 94 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 94 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 94 then reject
+
+set firewall family inet filter Filter term 95 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 95 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 95 from protocol [tcp]
+set firewall family inet filter Filter term 95 from destination-port [80 443]
+set firewall family inet filter Filter term 95 from source-port [0-65535]
+set firewall family inet filter Filter term 95 then accept
+
+set firewall family inet filter Filter term 96 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 96 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 96 then reject
+
+set firewall family inet filter Filter term 97 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 97 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 97 from protocol [tcp]
+set firewall family inet filter Filter term 97 from destination-port [80 443]
+set firewall family inet filter Filter term 97 from source-port [0-65535]
+set firewall family inet filter Filter term 97 then accept
+
+set firewall family inet filter Filter term 98 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 98 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 98 then reject
+
+set firewall family inet filter Filter term 99 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 99 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 99 from protocol [tcp]
+set firewall family inet filter Filter term 99 from destination-port [80 443]
+set firewall family inet filter Filter term 99 from source-port [0-65535]
+set firewall family inet filter Filter term 99 then accept
+
+set firewall family inet filter Filter term 100 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 100 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 100 then reject
+
+set firewall family inet filter Filter term 101 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 101 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 101 from protocol [tcp]
+set firewall family inet filter Filter term 101 from destination-port [80 443]
+set firewall family inet filter Filter term 101 from source-port [0-65535]
+set firewall family inet filter Filter term 101 then accept
+
+set firewall family inet filter Filter term 102 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 102 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 102 then reject
+
+set firewall family inet filter Filter term 103 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 103 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 103 from protocol [tcp]
+set firewall family inet filter Filter term 103 from destination-port [80 443]
+set firewall family inet filter Filter term 103 from source-port [0-65535]
+set firewall family inet filter Filter term 103 then accept
+
+set firewall family inet filter Filter term 104 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 104 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 104 then reject
+
+set firewall family inet filter Filter term 105 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 105 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 105 from protocol [tcp]
+set firewall family inet filter Filter term 105 from destination-port [80 443]
+set firewall family inet filter Filter term 105 from source-port [0-65535]
+set firewall family inet filter Filter term 105 then accept
+
+set firewall family inet filter Filter term 106 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 106 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 106 then reject
+
+set firewall family inet filter Filter term 107 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 107 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 107 from protocol [tcp]
+set firewall family inet filter Filter term 107 from destination-port [80 443]
+set firewall family inet filter Filter term 107 from source-port [0-65535]
+set firewall family inet filter Filter term 107 then accept
+
+set firewall family inet filter Filter term 108 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 108 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 108 then reject
+
+set firewall family inet filter Filter term 109 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 109 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 109 from protocol [tcp]
+set firewall family inet filter Filter term 109 from destination-port [80 443]
+set firewall family inet filter Filter term 109 from source-port [0-65535]
+set firewall family inet filter Filter term 109 then accept
+
+set firewall family inet filter Filter term 110 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 110 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 110 then reject
+
+set firewall family inet filter Filter term 111 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 111 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 111 from protocol [tcp]
+set firewall family inet filter Filter term 111 from destination-port [80 443]
+set firewall family inet filter Filter term 111 from source-port [0-65535]
+set firewall family inet filter Filter term 111 then accept
+
+set firewall family inet filter Filter term 112 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 112 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 112 then reject
+
+set firewall family inet filter Filter term 113 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 113 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 113 from protocol [tcp]
+set firewall family inet filter Filter term 113 from destination-port [80 443]
+set firewall family inet filter Filter term 113 from source-port [0-65535]
+set firewall family inet filter Filter term 113 then accept
+
+set firewall family inet filter Filter term 114 from source-address 0.0.0.0/0
+set firewall family inet filter Filter term 114 from destination-address 113.13.223.94/32
+set firewall family inet filter Filter term 114 then reject
+commit

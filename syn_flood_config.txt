@@ -1,0 +1,11 @@
+set interfaces ge-0/0/2 unit 0 family inet filter input syn-flood
+
+set firewall family inet filter syn-flood term syn-flood from source-address any
+set firewall family inet filter syn-flood term syn-flood from destination-address any
+set firewall family inet filter syn-flood term syn-flood from protocol tcp
+set firewall family inet filter syn-flood term syn-flood from tcp-flags syn
+set firewall family inet filter syn-flood term syn-flood then count syn-flood-count by src-addr for 60s
+
+set firewall family inet filter syn-flood term syn-flood then if-exceeding count 100
+set firewall family inet filter syn-flood term syn-flood then discard
+set firewall family inet filter syn-flood term syn-flood then log
